@@ -2,6 +2,12 @@ print("+--+")
 print("|  |")
 print("|  |")
 print("+--+")
+inp = input("Enter input ")
+top_bot = "+" + "-" * (int(inp)-2) + "+"
+middle = "|" + " " * (int(inp)-2) + "|"
+print(top_bot)
+print(middle)
+print(top_bot)
 
 for x in range(5):
     for n in range(5):
