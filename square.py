@@ -1,3 +1,8 @@
+print("+--+")
+print("|  |")
+print("|  |")
+print("+--+")
+
 for x in range(5):
     for n in range(5):
         # upper left corner
@@ -12,4 +17,3 @@ for x in range(5):
         # lower right corner
         if x == 4 and n == 4:
             print("+")
-        #END program
